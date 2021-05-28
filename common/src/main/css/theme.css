@@ -1,0 +1,40 @@
+#Constants {
+    includeNativeBool: true;
+}
+Toolbar {
+    border: none;
+    background-image: url(img/todo-title.jpg);
+    cn1-background-type: cn1-image-scaled-fill;
+    cn1-source-dpi: 0;
+    padding: 6mm 3mm 3mm 3mm;
+    margin: 0px;
+}
+Title {
+    color: white;
+    font-family: "native:MainLight";
+    font-size: 7mm;
+}
+Label {
+    padding: 4mm 3mm 4mm 3mm;
+    font-family: "native:MainLight";
+    font-size: 3.5mm;
+}
+Task {
+    border-bottom: #cccccc 2px solid;
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+}
+ToggleButton {
+    color: #cfcfcf;
+    background: transparent;
+    border: none;
+}
+ToggleButton.selected, ToggleButton.pressed {
+    color: #6868FD;
+}
+TitleCommand {
+    color: #ffffff;
+    background: transparent;
+    font-size: 5mm;
+}
